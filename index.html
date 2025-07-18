@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fragrâncias até R$100</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+
+    #dados-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin: 0.5rem 0;
+    }
+
+    .card-preco {
+      color: #2e7d32;
+      font-weight: bold;
+      margin-top: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>🧴 Fragrâncias até R$100</h1>
+  <div id="dados-container"></div>
+  <script src="exercicioBeauty.js"></script>
+</body>
+</html>
