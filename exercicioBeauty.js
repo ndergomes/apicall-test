@@ -10,9 +10,9 @@ async function chamarApi(){
 
         for (let i = 0; i < todosOsProdutos.length; i++){
             if (
-              todosOsProdutos[i].category === 'fragrances' &&
-              todosOsProdutos[i].rating > 4 &&
-              todosOsProdutos[i].price < 100
+            //   todosOsProdutos[i].category === 'fragrances' &&
+            //   todosOsProdutos[i].rating > 2 &&
+              todosOsProdutos[i].price < 1000
             ){
                 // Criação do card visual
                 const card = document.createElement("div")
